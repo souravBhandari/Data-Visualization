@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt 
+from matplotlib import style
+import numpy as np
+
+years=[2012,2013,2014,2015,2016]
+
+pitampura=np.random.randint(1000,5000,5)
+rohini=np.random.randint(1000,5000,5)
+shalimar=np.random.randint(1000,5000,5)
+fig,sp=plt.subplots(nrows=1,ncols=3)
+sp[0].pie(pitampura,labels=years,autopct='%.2f%%')
+sp[1].pie(rohini,labels=years,autopct='%.2f%%')
+sp[2].pie(shalimar,labels=years,autopct='%.2f%%')
+plt.show()
