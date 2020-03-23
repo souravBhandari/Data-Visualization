@@ -5,10 +5,10 @@ import seaborn as sns
 
 sns.set_style("whitegrid")
 df=pd.read_csv("market_fact.csv")
-'''
+
 sns.distplot(df['Shipping_Cost'])
 plt.show()
-'''
+
 #subplots 
 
 plt.subplot(2,2,1)
