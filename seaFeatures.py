@@ -4,11 +4,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 sns.set_style("whitegrid")
+<<<<<<< HEAD
 df=pd.read_csv("./global_sales_data/market_fact.csv")
 '''
+=======
+df=pd.read_csv("market_fact.csv")
+
+>>>>>>> 7d07155d6f83d155a053ac6b5dc8d1d0981e58f2
 sns.distplot(df['Shipping_Cost'])
 plt.show()
-'''
+
 #subplots 
 '''
 plt.subplot(2,2,1)
@@ -29,6 +34,7 @@ plt.subplot(2,2,4)
 #plt.title('profit')
 sns.distplot(df['Shipping_Cost'])
 plt.show()
+<<<<<<< HEAD
 '''
 # box plot
 '''sns.boxplot(df['Order_Quantity']) # it is default on x-axis
@@ -54,3 +60,6 @@ plt.show()
     ripple=pd.read_csv("Crypto_data/ripple_price.csv")
 
 read from telcov.ipynb file'''
+=======
+# box plot
+>>>>>>> 7d07155d6f83d155a053ac6b5dc8d1d0981e58f2
